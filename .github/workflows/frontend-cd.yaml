@@ -6,6 +6,10 @@ on:
       - main
   workflow_dispatch:
 
+defaults:
+  run:
+    working-directory: starter/frontend
+
 jobs:
   lint:
     runs-on: ubuntu-latest
