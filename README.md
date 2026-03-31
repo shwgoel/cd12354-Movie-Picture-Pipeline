@@ -1,5 +1,9 @@
 URL : https://github.com/shwgoel/cd12354-Movie-Picture-Pipeline
 
+Backend Microservice :https://us-east-1.console.aws.amazon.com/eks/clusters/cluster-movie/pods/backend-5bcb456677-l4z6m?namespace=default&region=us-east-1
+
+Frontend Microservice:-https://us-east-1.console.aws.amazon.com/eks/clusters/cluster-movie/pods/frontend-79774b9c5d-qfkgs?namespace=default&region=us-east-1
+
 # Movie Picture Pipeline
 
 You've been brought on as the DevOps resource for a development team that manages a web application that is a catalog of Movie Picture movies. They're in dire need of automating their development workflows in hopes of accelerating their release cycle. They'd like to use Github Actions to automate testing, building and deploying their applications to an existing Kubernetes cluster.
