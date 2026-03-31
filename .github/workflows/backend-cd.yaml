@@ -100,3 +100,9 @@ jobs:
       - name: Deploy with kubectl
         run: |
           kubectl apply -k k8s/
+
+      - name: Get Service url
+        run: |
+          kubectl get svc -A
+
+         
