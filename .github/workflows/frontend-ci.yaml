@@ -1,3 +1,4 @@
+name: Frontend CI
 
 on:
   pull_request:
@@ -65,5 +66,5 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Run build
+      - name: Run test
         run: npm run test
