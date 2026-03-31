@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: backend
-          image: backend-app
+          image: 851098360451.dkr.ecr.us-east-1.amazonaws.com/backend-app:latest
           ports:
             - containerPort: 5000
